@@ -126,8 +126,8 @@ h1, h3, h4 {
 }
 
 .icon-image-holder {
-  margin-left: 30%;
-  margin-right: 30%;
+    display: flex;
+	justify-content: center;
 }
 
 .icon-image {
@@ -139,3 +139,15 @@ h1, h3, h4 {
 	background-color: #bc13fe;
 }
 
+.place-holder {
+	width: 100%;
+}
+
+.mark-up {
+	padding: 2%;
+}
+
+.content-style {
+	font-size: 16px;
+	line-height: 2em;
+}
